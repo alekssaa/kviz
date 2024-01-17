@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kviz</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Kviz</a>
+        <nav class="navbar">
+          <a href="#" class="activ">Početna strana</a>
+          <a href="#">O nama</a>
+          <a href="#">Nova igra</a>
+          <a href="#">Kontakt</a>
+        </nav>
+      </header>
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Kviz:</h1>
+            <div class="quiz-header">
+              <span>Pitanja:</span>
+              <span class="header-score">Poeni: 0 / 5</span>
+            </div>
+            <h2 class="question-text"></h2>
+            <div class="option-list"></div>
+            <div class="quiz-footer">
+              <span class="question-total"> 1 od 5 pitanja </span>
+              <button class="next-btn">Sledeće pitanje</button>
+            </div>
+          </div>
+          <div class="result-box">
+            <h2>Osvojeno bodova</h2>
+            <div class="percentage-container">
+              <div class="circular-progres">
+                <span class="progres-value">0%</span>
+              </div>
+              <div class="score-text"></div>
+            </div>
+            <div class="buttons">
+              <button class="tryAgain">Pokušaj ponovo</button>
+              <button class="homeBtn">Početna strana</button>
+            </div>
+          </div>
+        </section>
+        <section class="home">
+          <div class="home-content">
+            <h1>Kviz Znanja</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              veniam reprehenderit ipsum? Est aliquid pariatur asperiores a
+              minima ad similique quibusdam accusantium, voluptatum aliquam ut
+              molestiae autem nemo corporis veritatis!
+            </p>
+            <button class="start-btn">Počni kviz</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="popup-info">
+      <h2>Pravila Kviza</h2>
+      <span class="info">1.Lorem ipsum dolor sit amet.</span>
+      <span class="info"
+        >2.Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+      >
+      <span class="info"
+        >3. Lorem ipsum dolor sit amet consectetur adipisicing.</span
+      >
+      <span class="info">4. Lorem ipsum dolor sit.</span>
+      <span class="info"
+        >5. Lorem, ipsum dolor sit amet consectetur adipisicing.</span
+      >
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Izadji</button>
+        <a href="#" class="info-btn continue-btn">Nastavi</a>
+      </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
